@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./Assets/favicon/inframartzz.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="./Assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Assets/css/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/custom.css">
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+
+    <title>Contact Us | INFRASMARTZ</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+
+    <header class="d-none d-lg-flex">
+        <div class="nav-logo">
+            <a href="./index.html">
+                <img src="./Assets/Logo/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <div class="navbar" id="navbar">
+                <ul class="nav-item">
+                    <li><a class="nav-link" href="./index.html">Home</a></li>
+                    <li><a class="nav-link" href="./about.html">About Us</a></li>
+                    <li><a class="nav-link" href="./services.html">Services</a></li>
+                    <li><a class="nav-link active" href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="nav-address">
+            <div>
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <span class="text">12 Roszel Road, <br> Princeton, NJ 08540</span>
+            </div>
+            <div>
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <span class="text">info@infrasmartz.com</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <section class="mob-nav d-lg-none d-flex justify-content-between align-items-center p-3">
+        <div class="navbar-logo">
+            <a href="./index.html">
+                <img src="./Assets/Logo/logo.png" width="200" alt="logo">
+            </a>
+        </div>
+        <div>
+            <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </section>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="mobileNav">
+        <div class="offcanvas-body">
+            <ul class="">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End Navbar Section -->
+
+    <!-- Contact Section -->
+
+    <div class="contact-text" id="contactUs">
+        <h5>INFRASMARTZ / Contact Us</h5>
+        <h2><span>Contact Us</span></h2>
+    </div>
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.0418435530523!2d-74.642186184607!3d40.31922887937654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e0d809e55555%3A0x26632276d048750e!2swww.infrasmartz.com!5e0!3m2!1sen!2sin!4v1653987365121!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="" style="font-size: 24px; color: black ; font-weight: 600;">Please provide the
+                    followings :</p>
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <input id="name" name="name" class="form-control shadow-none" type="text" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input id="email" name="email" class="form-control shadow-none" type="email"
+                            placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                        <input id="phone" name="phone" class="form-control shadow-none" type="text" pattern="/^\d*(?:\.\d{1,2})?$/"
+                            placeholder="Phone number">
+                    </div>
+                    <div class="mb-3">
+                        <input id="subject" name="subject" class="form-control shadow-none" type="text"
+                            placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea id="message" name="message" class="form-control shadow-none" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <button id="submitBtn" class="btn btn-primary form-control" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Contact Section -->
+
+    <!-- Footer Section -->
+
+    <footer class="footer pt-4 mt-5">
+        <div class="container p-4 mt-5" id="footer-one">
+            <div class="row">
+                <div class="col-md-8 leftBox">
+                    <div class="d-flex">
+                        <img src="./Assets/Icons/fluent_brain-circuit-20-regular.png" alt="">
+                        <h4>Helping you overcome your technology challenges</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2 rightBox">
+                    <button class="btn" type="button">Discover More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="footer-two">
+            <div class="row mt-5">
+                <div class="col-md-3 leftBox">
+                    <div class="logo">
+                        <img src="./Assets/Logo/Frame 7.png" alt="">
+                    </div>
+                    <div class="subsrcibe mt-5">
+                        <p>Subsrcibe for our upcoming latest articles and news resources</p>
+                        <form action="" id="newsletterForm">
+                            <input class="form-control shadow-none" type="email" name="email" id="email"
+                                placeholder="Enter Email Address">
+                            <button class="btn btn-success mt-2 py-2 border-0" id="subscribeBtn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3 centerBox1 mt-4">
+                    <h5>Links</h5>
+                    <div class="mt-4">
+                        <p><a href="./about.html">About Us</a></p>
+                        <p><a href="./services.html">Services</a></p>
+                        <p><a href="./contact.html">Contact Us</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 centerBox2 mt-4">
+                    <h5>Contact</h5>
+                    <div class="phone mt-4 d-flex">
+                        <div>
+                            <img src="./Assets/Icons/bxs_phone-call.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <p>+1 (609) 377-7222 <br> +1 (609) 284-4858</p>
+                        </div>
+                    </div>
+                    <div class="fax d-flex">
+                        <div>
+                            <img src="./Assets/Icons/cil_fax.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <p>+1 (609) 452-0614</p>
+                        </div>
+                    </div>
+                    <div class="mail d-flex">
+                        <div>
+                            <img src="./Assets/Icons/bi_envelope-fill.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <p>info@infrasmartz.com</p>
+                        </div>
+                    </div>
+                    <div class="mail d-flex">
+                        <div>
+                            <img src="./Assets/Icons/ion_location-sharp.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <p>Airtel Consulting, LLC,12 Roszel <br>
+                                Rd. Suite B-103, Princeton NJ <br>
+                                08540</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 rightBox mt-4">
+                    <h5>Social</h5>
+                    <div class="social-links mt-3">
+                        <a href="">
+                            <img src="./Assets/Icons/akar-icons_facebook-fill.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./Assets/Icons/akar-icons_pinterest-fill.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./Assets/Icons/akar-icons_twitter-fill.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./Assets/Icons/Frame 8.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="footer-text">
+            <hr>
+            <div class="d-sm-flex justify-content-between">
+                <p>All Rights Reserved &copy; <span id="demo"></span> INFRASMARTZ</p>
+                <p>Designed & Developed by <a target="_blank" href="https://ekodus.com/">Ekodus Technologies
+                        Pvt. Ltd.</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Changing the Year Dynamically -->
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.getFullYear();
+    </script>
+
+    <!-- Active Navbar -->
+    <script>
+        var btnContainer = document.getElementById("navbar");
+        var btns = btnContainer.getElementsByClassName("nav-link");
+
+        for(var i=0; i<btns.length; i++){
+            btns[i].addEventListener('click',function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active");
+                this.className += " active";
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+/* About Us */
+
+.aboutUs{
+    background: url(../Images/aboutUS.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.about-text{
+    position: relative;
+    width: 100%;
+    height: 375px;
+    text-align: center;
+}
+.about-text::before{
+    content: "";
+    background: rgba(1, 1, 1, 0.75);
+    width: 100%;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about-text h5{
+    width: 40%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    color: aqua;
+}
+.about-text h2{
+    font-size: 3em;
+    width: 40%;
+    position: relative;
+    top: 35%;
+    color: white;
+    /* padding: 0;
+    border: 0; */
+    display: inline-block;
+}
+#aboutUs{
+    margin-top: 75px;
+}
+.main-content h1{
+    font-weight: 700;
+}
+.main-content p{
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+    margin-top: 25px;
+    line-height: 2rem;
+    /* text-align: justify; */
+}
+.imgBlock1 img{
+    margin-top: 50px;
+}
+
+
+/* End About US Section */
+
+/* Services Section */
+
+#services{
+    background: url(../Images/services.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+.service-text{
+    position: relative;
+    width: 100%;
+    height: 375px;
+    text-align: center;
+}
+.service-text::before{
+    content: "";
+    background: rgba(1, 1, 1, 0.75);
+    width: 100%;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service-text h5{
+    width: 40%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    color: aqua;
+}
+.service-text h2{
+    font-size: 3em;
+    width: 40%;
+    position: relative;
+    top: 35%;
+    color: white;
+    /* padding: 0;
+    border: 0; */
+    display: inline-block;
+}
+
+/* .service-img{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.service-img::after{
+    content: "";
+    background: rgba(1, 1, 1, 0.4);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+#service{
+    margin-top: 75px;
+}
+#service h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+#service img{
+    width: 100%;
+    /* height: 350px; */
+    object-fit: cover;
+}
+.serviceBlock{
+    /* height: 350px; */
+    width: 100%;
+    position: relative;
+}
+.service-title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(1,1,1,0.1), rgba(0,0,0,0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 10px;
+}
+.service-title p{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/* Contact Section */
+
+#contactUs{
+    background: url(../Images/contact.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.contact-text{
+    position: relative;
+    width: 100%;
+    height: 375px;
+    text-align: center;
+}
+.contact-text::before{
+    content: "";
+    background: rgba(1, 1, 1, 0.75);
+    width: 100%;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact-text h5{
+    width: 40%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    color: aqua;
+}
+.contact-text h2{
+    font-size: 3em;
+    width: 40%;
+    position: relative;
+    top: 35%;
+    color: white;
+    /* padding: 0;
+    border: 0; */
+    display: inline-block;
+}
+#contact{
+    margin-top: 75px;
+}
+#contactForm .form-control {
+    border-radius: 0;
+}
+#contactForm .form-control[type=text],
+#contactForm .form-control[type=email] {
+    height: 48px;
+}

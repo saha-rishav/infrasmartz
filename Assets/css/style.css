@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.2);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px 10px 75px;
+    z-index: 9999999;
+}
+
+header.sticky .nav-logo img{
+    height: 85px;
+}
+
+header.sticky .nav-item li a{
+    font-size: 18px;
+}
+header.sticky .address i{
+    font-size: 12px;
+}
+header.sticky .text{
+    font-size: 12px;
+}
+
+/* Navbar */
+.mob-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.offcanvas{
+    background-color: rgb(1,1,1,0.7);
+    backdrop-filter: blur(10px);
+}
+.offcanvas-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas-body ul{
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 5rem;
+    padding-left: 0;
+}
+.offcanvas-body ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.offcanvas-start {
+    width: 80vw;
+}
+.offcanvas-header img{
+    height: 60px;
+}
+
+.nav-logo{
+    cursor: pointer;
+}
+.nav-logo img{
+    width: 100%;
+    height: 100px;
+    transition: 0.5s all;
+}
+.navbar .nav-item{
+    padding-top: 25px;
+    list-style: none;
+}
+.navbar .nav-item li{
+    display: inline-block;
+    padding: 0px 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar .nav-item li a{
+    color: rgb(44, 43, 43);
+}
+.navbar .nav-item li .active{
+    color: black;
+    font-weight: 500;
+    border-bottom: 3px solid #6654E8;
+}
+.navbar .nav-item li :hover{
+    color: #6654E8;
+    border-bottom: 3px solid #6654E8;
+}
+
+.nav-address i{
+    color: #6654E8;
+    font-size: 14px;
+}
+.nav-address .text{
+    font-size: 14px;
+}
+
+
+.btn{
+    background: #6654E8;
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/Frame\ 11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 120px; */
+}
+.banner-text{
+    padding-top: 250px;
+    justify-content: center;
+    text-align: center;
+}
+.banner-text h3{
+    color: #2ED3A2;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    margin-bottom: -40px;
+}
+.banner-text p{
+    color: white;
+    font-weight: 700;
+    font-size: 125px;
+    letter-spacing: 0.4rem;
+}
+.banner-text .btn{
+    color: white;
+    font-size: 22px;
+    padding: 16px 24px;
+}
+.banner-text .btn:hover{
+    background: #2ED3A2;
+}
+
+#outer-text{
+    background: #6654E8;
+}
+#outer-text p{
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#outer-text span{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #2ED3A2;
+    text-decoration-thickness: 3px;
+}
+
+/* End Banner */
+
+/* Solution */
+
+#solution{
+    margin-top: 100px;
+}
+#firstImage img{
+    width: 140%;
+}
+#secondImage{
+    position: relative;
+}
+#secondImage img{
+    position: absolute;
+    top: 60%;
+    left: -50%;
+    width: 130%;
+}
+/* #solution-text{
+    padding-left: 100px;
+} */
+#solution-text h6{
+    color: #6654E8;
+    font-weight: 700;
+}
+#solution-text h1{
+    font-weight: 700;
+}
+#solution-text .body-text{
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+#solution-text .outer-body{
+    margin-top: 35px;
+}
+#solution-text .outer-body p{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#solution-text .btn{
+    font-size: 22px;
+    margin-top: 50px;
+    padding: 16px 24px;
+}
+#solution-text .btn a{
+    color: white;
+    text-decoration: none;
+}
+#solution-text .btn:hover{
+    background: #2ED3A2;
+}
+
+/* End Solution */
+
+/* Services */
+
+.services{
+    margin-top: 150px;
+    width: 100%;
+    background-image: url('../Images/Frame\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 75px;
+}
+.services .firstBlock{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 138px;
+    padding-top: 100px;
+}
+.services .firstBox h5{
+    color: #6654E8;
+    font-weight: 700;
+}
+.services .firstBox h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.services .secondBox p{
+    font-size: 20px;
+    color: rgb(134, 134, 134);
+}
+
+.services .secondBlock{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.services .serviceBox{
+    background-color: #1c1525;
+    border: 1px solid rgba(211, 211, 211, 0.836);
+    margin: 40px;
+    padding: 20px 50px;
+    transition: all 0.4s ease-in;
+}
+.services .serviceBox p{
+    color: white;
+    font-weight: 700;
+    margin-top: 32px;
+    text-align: center;
+}
+.serviceBox:hover{
+    transform: scale(1.1)
+}
+.services .btn{
+    font-size: 22px;
+    padding: 14px 42px;
+}
+.services .btn:hover{
+    background: #2ED3A2;
+}
+.services .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* End Services */
+
+/* Testimonial */
+
+#testimonial {
+    background-image: url('../Vectors/Vector.png');
+    background-repeat: no-repeat;
+    background-color: #f7f7f9;
+    padding-bottom: 50px;
+}
+#testimonial .leftBox{
+    margin-top: 110px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#testimonial .leftBox img{
+    width: 230px;
+}
+#testimonial .rightBox{
+    padding-top: 110px;
+    padding-left: 150px;
+}
+#testimonial .rightBox p{
+    font-size: 32px;
+}
+#testimonial .rightBox .quote h4{
+    color: #6654E8;
+    font-weight: 700;
+}
+#testimonial .rightBox .quote h5{
+    color: grey;
+}
+#testimonial .rightBox .quote-img{
+    width: 230px;
+    padding-right: 150px;
+    padding-top: 25px;
+}
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6654E8;
+}
+/* End Testimonial */
+
+/* Consultation */
+
+#consultation{
+    height: 200px;
+    margin-top: 125px;
+    background: #6654E8;
+}
+#consultation .leftBox,
+#consultation .chatbox,
+#consultation .rightBox{
+    text-align: center;
+}
+#consultation .leftBox h3{
+    color: white;
+    margin-top: 33px;
+    padding-left: 35px;
+    font-size: 30px;
+}
+#consultation .rightBox h2,
+#consultation .rightBox p{
+    color: white;
+}
+
+/* End Consultation */
+
+/* Clients */
+
+#clients{
+    margin-top: 100px;
+}
+#clients h1{
+    color: #6654E8;
+    font-weight: 700;
+}
+
+/* End CLients */
+
+/* Footer */
+
+#newsletterForm input[type=email]{
+    height: 45px;
+    border-radius: 0;
+}
+
+#newsletterForm ::placeholder{
+    font-size: 12px;
+}
+
+#subscribeBtn{
+    font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+    background: #1c1525;
+}
+#footer-one{
+    border: 1px solid #767676;
+}
+.footer #footer-one .leftBox img{
+    margin-left: 25px;
+}
+.footer #footer-one .leftBox h4{
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.footer #footer-one .rightBox .btn{
+    color: white;
+    font-size: 22px;
+    margin-left: 75px;
+    padding: 16px 24px;
+}
+.footer #footer-one .rightBox .btn:hover{
+    background: #2ED3A2;
+}
+.footer .centerBox1,
+ .footer .centerBox2, 
+ .footer .rightBox h5{
+    color: white;
+}
+.footer .leftBox .subsrcibe p{
+    color: grey;
+}
+.footer .leftBox .subsrcibe .btn{
+    margin-top: 5px;
+    padding: 5px 30px;
+}
+.footer #footer-two .leftBox .logo img{
+    height: 100px;
+}
+.footer .centerBox1{
+    padding-left: 110px;
+}
+.footer .centerBox1 p a{
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+.footer .centerBox2 p{
+    color: grey;
+}
+#footer-text p{
+    color: grey;
+    font-size: 16px;
+}
+#footer-text a{
+    color: #2ED3A2;
+}
+.social-links a{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+/* End Footer */
